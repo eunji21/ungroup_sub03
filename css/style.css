@@ -1,0 +1,276 @@
+*{margin:0; padding:0;}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+
+body{color:#000; font-size: 13px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+/* header */
+#header{width:1200px; margin:0 auto; 
+    height:72px; position: relative;
+}
+.nav{float: left; text-align: center;}
+.nav>li{float: left;}
+.nav>li>a{display: block;
+        font-weight: bold;
+        padding:40px 30px 15px 30px;
+
+}
+.nav>li>a:hover {color:#003ec6;}
+.light{color: #003ec6; 
+    border-bottom:3px solid #003ec6;
+    }
+
+.logo{position: absolute; top: 20px; left: 50%;
+    margin-left: -107.5px;
+}
+.link{float: right;}
+.link>li{float: left;}
+.link>li>a{display:block;
+        padding:40px 30px 15px 17px;
+        font-weight: bold;
+}
+.link>li>a:hover {color:#003ec6;}
+
+
+/* main */
+#main{width: 100%;
+    margin-bottom: 180px;}
+#main img{display: block; width: 100%; 
+    /* height: 815px; */
+    box-sizing: border-box; background-size: cover;}
+
+
+/* con1 */
+#con1{width: 100%; height: 800px; margin: 0 auto;
+    background: url(../images/con1_bg.png) no-repeat center 34%;
+    text-align: center;
+}
+.book li{float: left; padding-left: 19px;}
+/* 떠있는 책 */
+.book_inner{width: 1320px;
+     margin: 0 auto;
+     position: relative;
+    }
+.book1{margin-top: 30px;
+    background: url(../images/book1.jpg) no-repeat center top;
+    width: 523px; height: 316px;
+    transform:rotateY(0deg);
+    transition:all 1s;
+}
+.book1:hover{background: url(../images/book1-1.jpg) no-repeat center top;
+            transform: rotateY(180deg);
+}
+
+.book3{padding: 0;
+    background: url(../images/book3.jpg) no-repeat center top;
+    width: 166px; height: 205px;
+    transform:rotateY(0deg);
+    transition:all 1s;
+}
+.book3:hover{background: url(../images/book3-1.jpg) no-repeat center top;
+    transform: rotateY(180deg);
+}
+.book4{position: absolute; right: 20px; top: 250px;
+    background: url(../images/book4.jpg)no-repeat center top;
+    width: 234px; height: 289px;
+    transform:rotateY(0deg);
+    transition:all 1s;
+}
+.book4:hover{background: url(../images/book4-1.jpg) no-repeat center top;
+    transform: rotateY(180deg);
+}
+
+h1{font-size: 48px; 
+    text-align: center;
+    padding-bottom: 50px;
+  }
+.con1_p{text-align: right; 
+        padding: 376px 278px 0 0;
+        font-size: 15px;
+        line-height: 23px;
+        }
+    
+
+/* con2 */
+#con2{width: 1320px; height: 840px; margin: 0 auto;}
+.con2_ul{height: 420px; line-height: 23px;
+        margin-bottom: 20px;
+}
+.con2_ul li{float:  left;}
+.con2_txt{padding: 100px 0 0 20px;}
+h2{font-size: 28px; padding-bottom:80px;}
+
+.con2_ul2{height: 400px; line-height: 23px;}
+.con2_ul2 li{float: right;}
+.con2_txt2{padding: 100px 20px 0 0; text-align: right;}
+
+
+/* con3 */  /*all item 시작부분*/ 
+#con3{width: 1320px; height: 700px; 
+    margin: 0 auto; margin-top: 180px;
+    }
+.all1{text-align: center;}
+.all1 li{float: left; margin-right: 36px;
+}
+/* .all1 li a img{display: block;} */
+.bold{font-weight: bold; padding-bottom: 10px;}
+
+/* li 크기: width: 294px; height: 357px; */
+
+
+/* 호버시 흑백에서 컬러로 */
+.dark1{background: url(../images/dark1.jpg) no-repeat center top;
+    width: 294px; height: 323px;
+}
+.dark1:hover{background: url(../images/con3_img1.jpg) no-repeat center top;
+    transition: all 0.8s;
+}
+.dark2{background: url(../images/dark2.jpg) no-repeat center top;
+    width: 294px; height: 323px;
+}
+.dark2:hover{background: url(../images/con3_img2.jpg) no-repeat center top;
+    transition: all 0.8s;
+}
+.dark3{background: url(../images/dark3.jpg) no-repeat center top;
+    width: 294px; height: 323px;
+}
+.dark3:hover{background: url(../images/con3_img3.jpg) no-repeat center top;
+    transition: all 0.8s;
+}
+.dark4{background: url(../images/dark4.jpg) no-repeat center top;
+    width: 294px; height: 323px;
+}
+.dark4:hover:hover{background: url(../images/con3_img4.jpg) no-repeat center top;
+    transition: all 0.8s;
+}
+
+
+
+/* con4 */
+#con4{width: 1320px; height: 780px; margin: 0 auto;}
+.con4_ul li{text-align: center; float: left; 
+    padding: 0 113px;}
+
+/* 호버시 흑백에서 컬러로 */
+.big1{background: url(../images/dark_big1.png) no-repeat center top;
+    width: 434px; height: 534px; 
+}
+.big1:hover{background: url(../images/con4_img1.png) no-repeat center top;
+            transition: all 0.8s;
+}
+.big2{background: url(../images/dark_big2.png) no-repeat center top;
+    width: 434px; height: 534px; 
+}
+.big2:hover{background: url(../images/con4_img2.png) no-repeat center top;
+            transition: all 0.8s;
+}
+
+
+/* con5 */
+#con5{width: 1320px; height: 1240px; margin: 0 auto;}
+.con5_ul{padding-bottom: 100px; height: 381px;}
+.con5_ul li{text-align: center; float: left;
+            padding: 0 48px;
+            }
+.con5_ul li img{height: 344px;}
+
+.con5_ul2{height: 497px;}
+.con5_ul2 li{text-align: center; float: left;}
+
+
+/* 호버시 흑백에서 컬러로 */
+.dark-1{background: url(../images/dark5-1.png) no-repeat center top;
+    width: 344px; height: 344px;
+}
+.dark-1:hover{background: url(../images/con5_img1.png) no-repeat center top;
+            transition: all 1s;
+}
+.dark-2{background: url(../images/dark5-2.png) no-repeat center top;
+    width: 320px; height: 320px;
+}
+.dark-2:hover{background: url(../images/con5_img2.png) no-repeat center top;
+            transition: all 1s;
+}
+.dark-3{background: url(../images/dark5-3.png) no-repeat center top;
+    width: 344px; height: 344px;
+}
+.dark-3:hover{background: url(../images/con5_img3.png) no-repeat center top;
+            transition: all 1s;
+}
+.dark-4{background: url(../images/dark5-4.png) no-repeat center top;
+    width: 440px; height: 460px;
+}
+.dark-4:hover{background: url(../images/con5_img4.png) no-repeat center top;
+            transition: all 1s;
+}
+.dark-5{background: url(../images/dark5-5.png) no-repeat center top;
+    width: 440px; height: 460px;
+}
+.dark-5:hover{background: url(../images/con5_img5.jpg) no-repeat center top;
+            transition: all 1s;
+}
+.dark-6{background: url(../images/dark5-6.png) no-repeat center top;
+    width: 440px; height: 460px;
+}
+.dark-6:hover{background: url(../images/con5_img6.jpg) no-repeat center top;
+            transition: all 1s;
+}
+
+
+/* 더보기 버튼 */
+.all_btn{width: 1320px;height: 150px; text-align: center;}
+
+.btn{display: inline-block;
+    margin-top: 100px; padding: 7px 70px;
+    background:#fff;
+    color:#003ec6;
+    background:#fff;
+              
+              line-height:30px;
+              
+              border:1px solid #003ec6;
+              text-align:center;
+              text-decoration:none;
+              
+              transition-property:all; /*속성값*/
+              transition-duration:0.3s; /*효과완료하는 시간*/
+              transition-timing-function:ease-in-out;  /*효과의 속도곡선*/
+              transition-delay:0; /*효과의 지연되는 시간*/
+
+  }
+.btn:hover{				
+/*마우스호버시 효과*/
+color: #fff; 
+background:#003ec6;
+}
+
+
+
+/* footer */
+#footer{width: 100%; height: 420px;
+    background-color: #d7d7d750;
+    font-weight: 300;
+}
+.footer_inner{width: 1320px; margin: 0 auto;
+           height: 420px;
+}
+
+.footer_ul{float: left;
+        padding-top: 50px;
+        font-size: 12px;
+      }
+.footer_ul li{padding-bottom: 10px;}
+.footer_text{padding-top: 20px;line-height: 30px;}
+
+.footer_icon{float: right;
+          padding-top: 90px;
+          margin-right: 108px;
+      }
+.footer_icon li{float:left; padding-left: 15px;}
+
+.footer_link{padding-top: 330px; padding-left: 80px;}
+.footer_link li{float: left; padding-left: 50px;}
+.footer_logo{padding-left: 130px;}
